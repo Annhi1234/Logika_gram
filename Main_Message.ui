@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>661</width>
+    <height>701</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(34, 36, 44);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>171</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{
+	border: 2px solid rgb(62, 186, 0);
+	border-radius: 20px;
+}
+QListWidget:hover{
+	border: 2px solid rgb(0, 0, 255);
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	border: 2px solid rgb(62, 186, 0);
+	border-radius: 20px;
+	color: white;
+	font-size: 45;
+	padding-left: 28px;
+	padding-right: 20px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Контакти</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>20</y>
+      <width>421</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+
+border: 2px solid rgb(62, 186, 0);
+
+border-radius: 20px;
+
+color: #FFFFFF;
+
+padding-left: 15px;
+
+padding-right: 20px;
+
+background-color: rgb(34, 36, 44); }
+
+QLineEdit:hover{
+	border: 2px solid rgb(0, 0, 255);
+}</string>
+    </property>
+    <property name="placeholderText">
+     <string>Знайди контакт по імені</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>640</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgb(34, 36, 44);
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    border: 2px solid rgb(62, 186, 0);
+    min-width: 45px;
+    min-height: 45px;
+	padding-down: 50px;
+}
+QPushButton:hover{
+	border: 2px solid rgb(0, 0, 255);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Розробники</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>220</y>
+      <width>301</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	border: 2px solid rgb(62, 186, 0);
+	border-radius: 20px;
+	color: white;
+	font-size: 45;
+	padding-left: 28px;
+	padding-right: 20px;
+}
+QLable:hover{
+	border: 2px solid rgb(85, 0, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Маленька інструкція:&lt;br/&gt;Привіт це Логіка грам це той самий&lt;br/&gt;телеграм чи вайбер тому не переймайся. &lt;/p&gt;&lt;p&gt;Тут є багато функцій, але не має кнопки&lt;br/&gt;дзвінку хоча вона тут і не потрібна.&lt;br/&gt;Спілкуйся з друзями через Логіка грам &lt;br/&gt;або з бабусею чи татом.&lt;br/&gt;Якщо знайшов баг пиши нам і ми його виправимо&lt;br/&gt;бо це Логіка грам.&lt;br/&gt;Ну все я й так багато часу в тебе забрав йди вже&lt;/p&gt;&lt;p&gt;переписуйся&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
